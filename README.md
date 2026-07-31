@@ -39,7 +39,7 @@ English: http://localhost:8000
 
 German: http://localhost:8000/cv-de.html
 
-👤 Author
+## 👤 Author
 
 Maher Sheikhi Aboumasoudi
 
