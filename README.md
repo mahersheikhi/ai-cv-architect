@@ -1,40 +1,46 @@
 # 📄 Interactive Dual-Language CV & Portfolio
 
-An automated, modern, responsive dual-language Curriculum Vitae (CV) and professional portfolio web application built with clean HTML/CSS and optimized for deployment via GitHub Pages and custom domains.
+An automated, modern, responsive dual-language Curriculum Vitae (CV) web application built with clean HTML5 & CSS3 and deployed via GitHub Pages.
 
 ---
 
 ## 🌐 Live CV Links
 
-Click below to view the live CV versions:
+Click below to view the live CV versions directly in your browser:
 
-* 🇬🇧 **[View English Resume](https://mahersheikhi.com/)** *(or [https://mahersheikhi.com/index.html](https://mahersheikhi.com/index.html))*
-* 🇩🇪 **[Lebenslauf auf Deutsch ansehen](https://mahersheikhi.com/cv-de.html)**
+* 🇬🇧 **[English Resume (Live)](https://mahersheikhi.github.io/ai-cv-architect/)**
+* 🇩🇪 **[German Resume / Lebenslauf (Live)](https://mahersheikhi.github.io/ai-cv-architect/cv-de.html)**
 
 ---
 
 ## 🚀 Key Features
 
-* **Dual-Language Support**: Seamless toggling between English (EN) and German (DE) versions with dedicated pages (`index.html` & `cv-de.html`).
-* **Print-Ready A4 Layout**: Responsive sidebar and main layout designed to render perfectly on web screens and convert directly to clean A4 PDF exports.
-* **Modern Minimalist UI**: High-contrast, clean corporate styling tailored for engineering, clinical tech, and AI/MedTech roles.
+* **Top Bar Language Switcher**: Immediate one-click navigation between English (EN) and German (DE) templates located at the top-right header.
+* **A4 Print & PDF Ready**: Designed with strict A4 aspect ratio, responsive sidebar, and `@page` rules for high-resolution PDF exports (`Ctrl+P` / `Cmd+P`).
+* **Medical & Technical Focus**: Tailored structure highlighting experience in Clinical Engineering, Medical Device Regulations (§ 83 MPDG), Signal Processing, and AI/ML applications.
 
 ---
 
-## 🛠️ Tech Stack & Local Testing
+## 🛠️ Local Development
 
-* **Core**: HTML5, CSS3, JavaScript
-* **Icons & Assets**: Custom SVG / Responsive Assets
-* **Local Web Server**:
-  ```bash
-  python3 -m http.server 8000
+Clone the project and run a local development server:
 
-* **Browser**:
+```bash
+# Clone the repository
+git clone [https://github.com/mahersheikhi/ai-cv-architect.git](https://github.com/mahersheikhi/ai-cv-architect.git)
+cd ai-cv-architect
+
+# Launch local Python web server
+python3 -m http.server 8000
+
+* **Access locally in your Browser**:
 
 English: http://localhost:8000
+
 German: http://localhost:8000/cv-de.html
 
 👤 Author
+
 Maher Sheikhi Aboumasoudi
 
 Clinical Engineer & Medical Device Consultant
