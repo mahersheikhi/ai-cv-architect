@@ -48,10 +48,10 @@ Maher Sheikhi Aboumasoudi
 
 Clinical Engineer & Medical Device Consultant
 
-**[Website](mahersheikhi.com)**
+**[Website](https://mahersheikhi.com)**
 
 **[GitHub](https://github.com/mahersheikhi)**
 
 **[LinkedIn](https://www.linkedin.com/in/maher-sheikhi/)**
 
-**[Email](mahershei67@gmail.com)**
+**[Email](https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mahershei67@gmail.com)**
