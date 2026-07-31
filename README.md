@@ -50,6 +50,6 @@ Clinical Engineer & Medical Device Consultant
 
 Website: mahersheikhi.com
 
-GitHub: @mahersheikhi
+**[GitHub](https://github.com/mahersheikhi)**
 
-LinkedIn: Maher Sheikhi
+**[LinkedIn](https://www.linkedin.com/in/maher-sheikhi/)**
