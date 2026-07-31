@@ -28,3 +28,19 @@ Click below to view the live CV versions:
 * **Local Web Server**:
   ```bash
   python3 -m http.server 8000
+
+* **Browser**:
+
+English: http://localhost:8000
+German: http://localhost:8000/cv-de.html
+
+👤 Author
+Maher Sheikhi Aboumasoudi
+
+Clinical Engineer & Medical Device Consultant
+
+Website: mahersheikhi.com
+
+GitHub: @mahersheikhi
+
+LinkedIn: Maher Sheikhi
