@@ -33,11 +33,13 @@ cd ai-cv-architect
 # Launch local Python web server
 python3 -m http.server 8000
 
-* **Access locally in your Browser**:
+Access locally in your Browser:
 
 English: http://localhost:8000
 
 German: http://localhost:8000/cv-de.html
+
+---
 
 ## 👤 Author
 
