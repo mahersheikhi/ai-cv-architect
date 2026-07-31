@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Lebenslauf - Maher Sheikhi Aboumasoudi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-size: 10pt;
+            line-height: 1.4;
+        }
+        
+        /* Document Layout */
+        .cv-container {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+            min-height: 297mm;
+        }
+        
+        .cv-row {
+            display: table-row;
+        }
+        
+        /* Sidebar Column */
+        .sidebar {
+            display: table-cell;
+            width: 32%;
+            background-color: #111111;
+            color: #ffffff;
+            padding: 30px 20px;
+            vertical-align: top;
+            height: 100%;
+        }
+        
+        /* Main Content Column */
+        .main-content {
+            display: table-cell;
+            width: 68%;
+            background-color: #ffffff;
+            padding: 40px 30px;
+            vertical-align: top;
+        }
+        
+        /* Typography & Headers */
+        h1 {
+            font-size: 22pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+            color: #222222;
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 12pt;
+            color: #666666;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .contact-info {
+            font-size: 9pt;
+            font-style: italic;
+            color: #555555;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 15px;
+        }
+        
+        .contact-info div {
+            margin-bottom: 4px;
+        }
+        
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #111111;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #222222;
+            padding-bottom: 5px;
+            letter-spacing: 0.5px;
+            page-break-after: avoid;
+        }
+        
+        /* Sidebar specific styling */
+        .profile-img-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            object-fit: cover;
+        }
+        
+        .sidebar h2 {
+            color: #ffffff;
+            font-size: 11pt;
+            border-bottom: 1px solid #444444;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-bottom: 4px;
+            page-break-after: avoid;
+        }
+        
+        .sidebar-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0 0 20px 0;
+        }
+        
+        .sidebar-list li {
+            font-size: 9pt;
+            margin-bottom: 5px;
+            color: #dddddd;
+        }
+        
+        .sidebar-list li::before {
+            content: "• ";
+            color: #888888;
+            font-weight: bold;
+        }
+
+        .skill-group-title {
+            font-size: 8.5pt;
+            font-weight: bold;
+            color: #aaaaaa;
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+        
+        .sidebar-subsect {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .sidebar-subsect-title {
+            font-weight: bold;
+            font-size: 9.5pt;
+            color: #ffffff;
+            margin-top: 8px;
+            margin-bottom: 2px;
+        }
+        
+        .sidebar-subsect-date {
+            font-size: 8pt;
+            color: #aaaaaa;
+            margin-bottom: 2px;
+        }
+        
+        .sidebar-subsect-desc {
+            font-size: 8.5pt;
+            color: #cccccc;
+        }
+        
+        /* Main Content Sections */
+        .section-block {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 11pt;
+            color: #111111;
+            margin-top: 12px;
+        }
+        
+        .company-location {
+            font-style: italic;
+            color: #555555;
+            font-size: 9.5pt;
+            margin-bottom: 6px;
+        }
+        
+        .date-range {
+            font-size: 9pt;
+            color: #777777;
+            font-style: italic;
+        }
+        
+        .project-item {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+        
+        .tech-stack {
+            font-size: 9pt;
+            color: #555555;
+            margin-bottom: 5px;
+        }
+        
+        .bullet-list {
+            padding-left: 15px;
+            margin: 5px 0 12px 0;
+        }
+        
+        .bullet-list li {
+            margin-bottom: 5px;
+            font-size: 9.5pt;
+            text-align: justify;
+        }
+        
+        /* Languages progress bars */
+        .lang-container {
+            margin-bottom: 12px;
+        }
+        
+        .lang-header {
+            display: table;
+            width: 100%;
+            font-size: 9pt;
+            color: #ffffff;
+            margin-bottom: 3px;
+        }
+        
+        .lang-name {
+            display: table-cell;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .lang-level {
+            display: table-cell;
+            text-align: right;
+            color: #aaaaaa;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            height: 5px;
+            background-color: #333333;
+            border-radius: 2px;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background-color: #ffffff;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <div class="cv-row">
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <div class="profile-img-container">
+                <img class="profile-img" src="Maher.png" alt="Maher Sheikhi Aboumasoudi">
+            </div>
+            
+            <h2>Kenntnisse</h2>
+            
+            <div class="skill-group-title">Programmierung & Tools</div>
+            <ul class="sidebar-list">
+                <li>Python</li>
+                <li>C#</li>
+                <li>MATLAB</li>
+                <li>LabVIEW</li>
+                <li>Git & PowerShell</li>
+                <li>SQL</li>
+            </ul>
+
+            <div class="skill-group-title">KI & Data Science</div>
+            <ul class="sidebar-list">
+                <li>Machine Learning & Deep Learning</li>
+                <li>Generative AI & LLM</li>
+                <li>Claude Code & Codex</li>
+                <li>API Integration</li>
+                <li>Computer Vision</li>
+                <li>Datenanalyse</li>
+            </ul>
+
+            <div class="skill-group-title">Neurotech & Medizintechnik</div>
+            <ul class="sidebar-list">
+                <li>Biosignalverarbeitung (EEG/EMG/MEG)</li>
+                <li>DICOM/FHIR/PACS</li>
+                <li>Medizintechnik-Software-Standards</li>
+            </ul>
+            
+            <h2>Ausbildung</h2>
+            <div class="sidebar-subsect">
+                <div class="sidebar-subsect-date">01/2020 - 01/2022</div>
+                <div class="sidebar-subsect-title">Technische Universität Berlin (TU Berlin)</div>
+                <div class="sidebar-subsect-desc">Berlin, Deutschland<br><strong>M.Sc.: Elektrotechnik</strong></div>
+            </div>
+            
+            <div class="sidebar-subsect">
+                <div class="sidebar-subsect-date">01/2011 - 01/2017</div>
+                <div class="sidebar-subsect-title">Azad-Universität, Isfahan</div>
+                <div class="sidebar-subsect-desc">Isfahan, Iran<br><strong>B.Sc.: Elektrotechnik</strong></div>
+            </div>
+            
+            <h2>Sprachen</h2>
+            <div class="lang-container">
+                <div class="lang-header">
+                    <span class="lang-name">Persisch (Farsi)</span>
+                    <span class="lang-level">Muttersprache</span>
+                </div>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 100%;"></div></div>
+            </div>
+            
+            <div class="lang-container" style="margin-top: 10px;">
+                <div class="lang-header">
+                    <span class="lang-name">Deutsch</span>
+                    <span class="lang-level">C1</span>
+                </div>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Verhandlungssicher (C1)</div>
+            </div>
+            
+            <div class="lang-container" style="margin-top: 10px;">
+                <div class="lang-header">
+                    <span class="lang-name">Englisch</span>
+                    <span class="lang-level">C1</span>
+                </div>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Fließend (C1)</div>
+            </div>
+        </div>
+        
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <h1>MAHER SHEIKHI ABOUMASOUDI</h1>
+            <div class="subtitle">Clinical Engineer & Medical Device Consultant</div>
+            
+            <div class="contact-info">
+                <div><strong>Telefon:</strong> +49 015901610157 &nbsp;|&nbsp; <strong>E-Mail:</strong> mahershei67@gmail.com</div>
+                <div><strong>Adresse:</strong> Freischützstraße 52, 81927, München, Deutschland</div>
+                <div><strong>Website & GitHub:</strong> <a href="https://mahersheikhi.com/" style="color:#0066cc; text-decoration:none;">mahersheikhi.com</a> &nbsp;|&nbsp; <a href="https://github.com/mahersheikhi" style="color:#0066cc; text-decoration:none;">github.com/mahersheikhi</a></div>
+                <div><strong>Sprache:</strong> <a href="index.html" style="color:#0066cc; text-decoration:none;">🇬🇧 English</a> | 🇩🇪 Deutsch</div>
+            </div>
+            
+            <h2>Berufliches Profil</h2>
+            <p style="margin-top: 5px; font-size: 9.5pt; color: #444444; text-align: justify;">
+                Klinischer Ingenieur und zertifizierter Medical Device Consultant (gemäß § 83 MPDG) mit Spezialisierung auf Neurotechnologie. Erfahren in der Entwicklung KI-gestützter Echtzeit-BCI-Pipelines (Charité) sowie in der Medizintechnik für implantierbare Systeme. Begeistert davon, die Lebensqualität von Patienten durch neurotechnologische Innovationen zu verbessern.
+            </p>
+            
+            <h2>Berufserfahrung</h2>
+            
+            <div class="section-block">
+                <div class="date-range">01/2025 - Heute</div>
+                <div class="job-title">Clinical Engineer / Medical Device Consultant</div>
+                <div class="company-location">MED-EL | München</div>
+                <ul class="bullet-list">
+                    <li>Signalverarbeitung: Programmierung hochkomplexer Cochlea- und Mittelohrimplantat-Systeme unter Einsatz fortschrittlicher digitaler Signalverarbeitungsmethoden (C#).</li>
+                    <li>Systemvalidierung: Durchführung kritischer intraoperativer Systemmessungen und Echtzeit-Validierungen im Operationssaal zur Sicherstellung der Funktionalität medizinischer Geräte.</li>
+                    <li>Qualität & Dokumentation: Dokumentation klinischer Daten in strikter Übereinstimmung mit internationalen Medizintechnik-Sicherheitsstandards und Etablierung einer kontinuierlichen Feedbackschleife zur F&E-Abteilung.</li>
+                    <li>Technischer Support: Experten-Support für Chirurgen und Audiologen bei Erstanpassungen, Nachsorgeterminen und aktiven Operationen.</li>
+                    <li>Klinische Workshops: Durchführung interaktiver Workshops und Schulungen für medizinisches Fachpersonal zur optimalen Nutzung der Medizinprodukte.</li>
+                </ul>
+            </div>
+            
+            <div class="section-block">
+                <div class="date-range">01/2023 - 12/2024</div>
+                <div class="job-title">Entwicklungsingenieur Software</div>
+                <div class="company-location">Bertrandt / BMW Group | München</div>
+                <ul class="bullet-list">
+                    <li>Prozessverifikation: Eigenverantwortliche Steuerung von Systemvalidierungs-Pipelines und Erstellung normkonformer Typgenehmigungs-Prüfberichte für Audits.</li>
+                    <li>Agiles Projektmanagement: Leitung von Validierungs-Workflows nach Scrum und Kanban zur Gewährleistung fristgerechter Entwicklungsziele.</li>
+                    <li>Systemintegration: Programmierung und Integration komplexer Software-Sicherheits-Subsysteme über verschiedene Fahrzeugkomponenten hinweg.</li>
+                </ul>
+            </div>
+            
+            <div class="section-block">
+                <div class="date-range">07/2022 - 12/2022</div>
+                <div class="job-title">Masterand - Softwareentwicklung</div>
+                <div class="company-location">Arthrex GmbH | München</div>
+                <ul class="bullet-list">
+                    <li>Datenanalyse: Entwicklung einer Python-basierten grafischen Benutzeroberfläche (GUI) zur Optimierung der statistischen Datenauswertung von Prüfständen für chirurgische Instrumente.</li>
+                    <li>Automatisierung: Implementierung von Machine-Learning-Algorithmen zur automatisierten Fehlererkennung zur Steigerung von Rückverfolgbarkeit und Messgenauigkeit.</li>
+                </ul>
+            </div>
+            
+            <div class="section-block">
+                <div class="date-range">01/2022 - 06/2022</div>
+                <div class="job-title">Praktikant - SW/HW-Entwicklung</div>
+                <div class="company-location">Fresenius Medical Care | Schweinfurt</div>
+                <ul class="bullet-list">
+                    <li>Lebenszyklusplanung: Unterstützung bei der frühen Projektplanung, Risikoanalyse und Erstellung der Dokumentationsstruktur für lebenserhaltende Dialysegeräte.</li>
+                    <li>Interdisziplinäre Zusammenarbeit: Moderation von User-Story-Workshops im Scrum-Framework zur Abstimmung zwischen technischer Entwicklung und klinischen Anforderungen.</li>
+                </ul>
+            </div>
+            
+            <div class="section-block">
+                <div class="date-range">08/2021 - 12/2021</div>
+                <div class="job-title">Wissenschaftlicher Mitarbeiter - Brain-Computer Interface (BCI)</div>
+                <div class="company-location">Clinical Neurotechnology Lab, Charité | Berlin</div>
+                <ul class="bullet-list">
+                    <li>Biosignal-Pipelines: Aufbau KI-gestützter BCI-Systempipelines mit Neuropype zur Echtzeit-Validierung und -Verarbeitung neurologischer Datensätze (EEG, MEG, EMG).</li>
+                    <li>Wissenschaftliches Scripting: Programmierung von Skripten zur analytischen Visualisierung und Datenverarbeitung in Python (NumPy, MNE, scikit-learn).</li>
+                </ul>
+            </div>
+            
+            <div class="section-block">
+                <div class="date-range">03/2014 - 08/2017</div>
+                <div class="job-title">Elektroingenieur</div>
+                <div class="company-location">Farzanegan Faranoor | Isfahan</div>
+                <ul class="bullet-list">
+                    <li>Automatisierung messtechnischer Prüf- und Visualisierungsplattformen mit LabVIEW und MATLAB zur Optimierung der Arbeitsabläufe.</li>
+                </ul>
+            </div>
+            
+            <h2>Projekte & Akademische Arbeiten</h2>
+            
+            <div class="project-item">
+                <div class="project-title">1. NeuroScan AI (<a href="https://github.com/mahersheikhi/AI_NeuroScan" style="color:#0066cc; text-decoration:none; font-size:9pt;">Link</a>)</div>
+                <div class="tech-stack">Gehirntumor-Erkennungssystem - <strong>Python · Flask · Claude Vision API</strong></div>
+                <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
+                    Entwicklung einer Full-Stack Webanwendung für medizinische Bildgebung, die Claude Vision AI nutzt, um MRT/CT-Scans zu analysieren, Tumore zu klassifizieren und detaillierte Diagnoseberichte zu erstellen.
+                </p>
+            </div>
+            
+            <div class="project-item">
+                <div class="project-title">2. Stock AI Agent (<a href="https://github.com/mahersheikhi/ai_stock_agent" style="color:#0066cc; text-decoration:none; font-size:9pt;">Link</a>)</div>
+                <div class="tech-stack">KI-Investment-Analyseplattform - <strong>LLM · Python · Streamlit · Yahoo Finance</strong></div>
+                <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
+                    Entwicklung einer modularen Investment-Analyseplattform, die Echtzeit-Marktdaten, technische Analysen, Risikobewertungen und verständliche Berichte kombiniert.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">3. Bio-Inspired Computer Vision</div>
+                <div class="tech-stack">Akademisches Forschungsprojekt - <strong>TU Berlin · Python</strong></div>
+                <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
+                    Analyse und Verarbeitung neuronaler Aufzeichnungen in Python zur Modellierung bio-inspirierter Sehsysteme und Extraktion visueller Merkmale.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">4. Brain-Computer Interfacing</div>
+                <div class="tech-stack">Akademisches Forschungsprojekt - <strong>TU Berlin · Neurotechnology</strong></div>
+                <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
+                    Aufbau Konnektom-basierter Ganzhirn-Simulationen zur Untersuchung netzwerkweiter Aktivitätsmuster und Echtzeit-BCI-Dekodierungsalgorithmen.
+                </p>
+            </div>
+            
+            <h2>Zertifikate</h2>
+            <ul class="bullet-list" style="margin-bottom: 15px;">
+                <li><strong>Generative AI for Healthcare</strong>, Google Cloud, 03/2026</li>
+                <li><strong>Certified Medical Device Consultant (Medizinprodukteberater - §83 MPDG)</strong>, TÜV, 02/2025</li>
+            </ul>
+            
+            <h2>Hobbys</h2>
+            <p style="font-size: 9.5pt; color: #444444;">Fußball, Stand-Up Paddling (SUP), Schwimmen, Kochen</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
