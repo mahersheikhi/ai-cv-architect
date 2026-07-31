@@ -11,7 +11,7 @@ A clean, responsive, print-optimized two-column CV developed in raw HTML5 & CSS3
 ## 🌐 Versions
 
 * 🇬🇧 **[English Resume (Live)](https://mahersheikhi.com/)**
-* 🇩🇪 **[German Resume / Lebenslauf (Live)](https://mahersheikhi.com/cv-de.html)**
+
 
 ---
 
