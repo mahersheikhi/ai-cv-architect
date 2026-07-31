@@ -31,9 +31,9 @@ git clone [https://github.com/mahersheikhi/ai-cv-architect.git](https://github.c
 cd ai-cv-architect
 
 # Launch local Python web server
-python3 -m http.server 8000```
+python3 -m http.server 8000
+```
 
----
 
 Access locally in your Browser:
 
@@ -41,7 +41,6 @@ English: http://localhost:8000
 
 German: http://localhost:8000/cv-de.html
 
----
 
 ## 👤 Author
 
