@@ -1,31 +1,30 @@
-# Professional CV & Portfolio — Maher Sheikhi Aboumasoudi
+# 📄 Interactive Dual-Language CV & Portfolio
 
-[![Live Resume](https://img.shields.io/badge/Website-mahersheikhi.com-0066cc?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mahersheikhi.com/)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-mahersheikhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahersheikhi)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-
-A clean, responsive, print-optimized two-column CV developed in raw HTML5 & CSS3. Certified Medical Device Consultant and Clinical Engineer specializing in Neurotechnology and AI-driven healthcare solutions.
+An automated, modern, responsive dual-language Curriculum Vitae (CV) and professional portfolio web application built with clean HTML/CSS and optimized for deployment via GitHub Pages and custom domains.
 
 ---
 
-## 🌐 Versions
+## 🌐 Live CV Links
 
-* 🇬🇧 **[English Resume (Live)](https://mahersheikhi.com/)**
+Click below to view the live CV versions:
 
-
----
-
-## 🛠️ Features & Technical Highlights
-
-* **Print & PDF Ready**: Uses `@page A4` dimensions and precise styling for flawless PDF exports (`Ctrl+P` / `Cmd+P`).
-* **Clean Two-Column Layout**: Highlighting core technical competencies (Python, C#, AI, Biosignal Processing) alongside structured professional experience.
-* **Dual Language Support**: Standalone English and German templates.
+* 🇬🇧 **[View English Resume](https://mahersheikhi.com/)** *(or [https://mahersheikhi.com/index.html](https://mahersheikhi.com/index.html))*
+* 🇩🇪 **[Lebenslauf auf Deutsch ansehen](https://mahersheikhi.com/cv-de.html)**
 
 ---
 
-## 🚀 Quick Start / Local Development
+## 🚀 Key Features
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/mahersheikhi/my-cv-portfolio.git](https://github.com/mahersheikhi/my-cv-portfolio.git)
-   cd my-cv-portfolio
+* **Dual-Language Support**: Seamless toggling between English (EN) and German (DE) versions with dedicated pages (`index.html` & `cv-de.html`).
+* **Print-Ready A4 Layout**: Responsive sidebar and main layout designed to render perfectly on web screens and convert directly to clean A4 PDF exports.
+* **Modern Minimalist UI**: High-contrast, clean corporate styling tailored for engineering, clinical tech, and AI/MedTech roles.
+
+---
+
+## 🛠️ Tech Stack & Local Testing
+
+* **Core**: HTML5, CSS3, JavaScript
+* **Icons & Assets**: Custom SVG / Responsive Assets
+* **Local Web Server**:
+  ```bash
+  python3 -m http.server 8000
