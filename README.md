@@ -8,7 +8,7 @@ An automated, modern, responsive dual-language Curriculum Vitae (CV) web applica
 
 Click below to view the live CV versions directly in your browser:
 
-* 🇬🇧 **[English Resume (Live)](https://mahersheikhi.github.io/ai-cv-architect/)**
+* 🇬🇧 **[English Resume (Live)](https://mahersheikhi.github.io/ai-cv-architect/index.html)**
 * 🇩🇪 **[German Resume / Lebenslauf (Live)](https://mahersheikhi.github.io/ai-cv-architect/cv-de.html)**
 
 ---
