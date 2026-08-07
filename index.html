@@ -2,269 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Resume - Maher Sheikhi Aboumasoudi</title>
+    <title>CV - Maher Sheikhi Aboumasoudi</title>
     <style>
-        @page {
-            size: A4;
-            margin: 0;
-        }
-        * {
-            box-sizing: border-box;
-        }
+        @page { size: A4; margin: 0; }
+        * { box-sizing: border-box; }
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            font-size: 10pt;
-            line-height: 1.4;
+            color: #333333; margin: 0; padding: 0; background-color: #ffffff;
+            font-size: 10pt; line-height: 1.4;
         }
-        
-        /* Document Layout */
-        .cv-container {
-            display: table;
-            width: 100%;
-            border-collapse: collapse;
-            min-height: 297mm;
-        }
-        
-        .cv-row {
-            display: table-row;
-        }
-        
-        /* Sidebar Column */
+        .cv-container { display: table; width: 100%; border-collapse: collapse; min-height: 297mm; }
+        .cv-row { display: table-row; }
         .sidebar {
-            display: table-cell;
-            width: 32%;
-            background-color: #111111;
-            color: #ffffff;
-            padding: 30px 20px;
-            vertical-align: top;
-            height: 100%;
+            display: table-cell; width: 32%; background-color: #111111; color: #ffffff;
+            padding: 30px 20px; vertical-align: top; height: 100%;
         }
-        
-        /* Main Content Column */
         .main-content {
-            display: table-cell;
-            width: 68%;
-            background-color: #ffffff;
-            padding: 40px 30px;
-            vertical-align: top;
+            display: table-cell; width: 68%; background-color: #ffffff;
+            padding: 40px 30px; vertical-align: top;
         }
-        
-        /* Typography & Headers */
         h1 {
-            font-size: 22pt;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 0;
-            margin-bottom: 5px;
-            letter-spacing: 1px;
-            color: #222222;
-            line-height: 1.1;
+            font-size: 22pt; font-weight: bold; text-transform: uppercase;
+            margin-top: 0; margin-bottom: 5px; letter-spacing: 1px; color: #222222; line-height: 1.1;
         }
-        
-        .subtitle {
-            font-size: 13pt;
-            color: #666666;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
+        .subtitle { font-size: 12pt; color: #666666; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
         .contact-info {
-            font-size: 9pt;
-            font-style: italic;
-            color: #555555;
-            margin-bottom: 25px;
-            border-bottom: 1px solid #eeeeee;
-            padding-bottom: 15px;
+            font-size: 9pt; font-style: italic; color: #555555; margin-bottom: 25px;
+            border-bottom: 1px solid #eeeeee; padding-bottom: 15px;
         }
-        
-        .contact-info div {
-            margin-bottom: 4px;
-        }
-        
+        .contact-info div { margin-bottom: 4px; }
         h2 {
-            font-size: 12pt;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #111111;
-            margin-top: 25px;
-            margin-bottom: 12px;
-            border-bottom: 2px solid #222222;
-            padding-bottom: 5px;
-            letter-spacing: 0.5px;
-            page-break-after: avoid;
+            font-size: 12pt; font-weight: bold; text-transform: uppercase; color: #111111;
+            margin-top: 25px; margin-bottom: 12px; border-bottom: 2px solid #222222;
+            padding-bottom: 5px; letter-spacing: 0.5px; page-break-after: avoid;
         }
-        
-        /* Sidebar specific styling */
-        .profile-img-container {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-        
-        .profile-img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            border: 3px solid #ffffff;
-            object-fit: cover;
-        }
-        
+        .profile-img-container { text-align: center; margin-bottom: 25px; }
+        .profile-img { width: 140px; height: 140px; border-radius: 50%; border: 3px solid #ffffff; object-fit: cover; }
         .sidebar h2 {
-            color: #ffffff;
-            font-size: 11pt;
-            border-bottom: 1px solid #444444;
-            margin-top: 25px;
-            margin-bottom: 12px;
-            padding-bottom: 4px;
-            page-break-after: avoid;
+            color: #ffffff; font-size: 11pt; border-bottom: 1px solid #444444;
+            margin-top: 25px; margin-bottom: 12px; padding-bottom: 4px; page-break-after: avoid;
         }
-        
-        .sidebar-list {
-            list-style-type: none;
-            padding-left: 0;
-            margin: 0 0 20px 0;
-        }
-        
-        .sidebar-list li {
-            font-size: 9pt;
-            margin-bottom: 5px;
-            color: #dddddd;
-        }
-        
-        .sidebar-list li::before {
-            content: "• ";
-            color: #888888;
-            font-weight: bold;
-        }
-
+        .sidebar-list { list-style-type: none; padding-left: 0; margin: 0 0 20px 0; }
+        .sidebar-list li { font-size: 9pt; margin-bottom: 5px; color: #dddddd; }
+        .sidebar-list li::before { content: "• "; color: #888888; font-weight: bold; }
         .skill-group-title {
-            font-size: 8.5pt;
-            font-weight: bold;
-            color: #aaaaaa;
-            text-transform: uppercase;
-            margin-top: 10px;
-            margin-bottom: 4px;
-            letter-spacing: 0.5px;
+            font-size: 8.5pt; font-weight: bold; color: #aaaaaa; text-transform: uppercase;
+            margin-top: 10px; margin-bottom: 4px; letter-spacing: 0.5px;
         }
-        
-        .sidebar-subsect {
-            margin-bottom: 20px;
-            page-break-inside: avoid;
-        }
-        
-        .sidebar-subsect-title {
-            font-weight: bold;
-            font-size: 9.5pt;
-            color: #ffffff;
-            margin-top: 8px;
-            margin-bottom: 2px;
-        }
-        
-        .sidebar-subsect-date {
-            font-size: 8pt;
-            color: #aaaaaa;
-            margin-bottom: 2px;
-        }
-        
-        .sidebar-subsect-desc {
-            font-size: 8.5pt;
-            color: #cccccc;
-        }
-        
-        /* Main Content Sections */
-        .section-block {
-            margin-bottom: 20px;
-            page-break-inside: avoid;
-        }
-        
-        .job-title {
-            font-weight: bold;
-            font-size: 11pt;
-            color: #111111;
-            margin-top: 12px;
-        }
-        
-        .company-location {
-            font-style: italic;
-            color: #555555;
-            font-size: 9.5pt;
-            margin-bottom: 6px;
-        }
-        
-        .date-range {
-            font-size: 9pt;
-            color: #777777;
-            font-style: italic;
-        }
-        
-        .project-item {
-            margin-bottom: 15px;
-            page-break-inside: avoid;
-        }
-        
-        .project-title {
-            font-weight: bold;
-            font-size: 10.5pt;
-        }
-        
-        .tech-stack {
-            font-size: 9pt;
-            color: #555555;
-            margin-bottom: 5px;
-        }
-        
-        .bullet-list {
-            padding-left: 15px;
-            margin: 5px 0 12px 0;
-        }
-        
-        .bullet-list li {
-            margin-bottom: 5px;
-            font-size: 9.5pt;
-            text-align: justify;
-        }
-        
-        /* Languages progress bars */
-        .lang-container {
-            margin-bottom: 12px;
-        }
-        
-        .lang-header {
-            display: table;
-            width: 100%;
-            font-size: 9pt;
-            color: #ffffff;
-            margin-bottom: 3px;
-        }
-        
-        .lang-name {
-            display: table-cell;
-            text-align: left;
-            font-weight: bold;
-        }
-        
-        .lang-level {
-            display: table-cell;
-            text-align: right;
-            color: #aaaaaa;
-        }
-        
-        .progress-bar-container {
-            width: 100%;
-            height: 5px;
-            background-color: #333333;
-            border-radius: 2px;
-        }
-        
-        .progress-bar {
-            height: 100%;
-            background-color: #ffffff;
-            border-radius: 2px;
-        }
+        .sidebar-subsect { margin-bottom: 20px; page-break-inside: avoid; }
+        .sidebar-subsect-title { font-weight: bold; font-size: 9.5pt; color: #ffffff; margin-top: 8px; margin-bottom: 2px; }
+        .sidebar-subsect-date { font-size: 8pt; color: #aaaaaa; margin-bottom: 2px; }
+        .sidebar-subsect-desc { font-size: 8.5pt; color: #cccccc; }
+        .section-block { margin-bottom: 20px; page-break-inside: avoid; }
+        .job-title { font-weight: bold; font-size: 11pt; color: #111111; margin-top: 12px; }
+        .company-location { font-style: italic; color: #555555; font-size: 9.5pt; margin-bottom: 6px; }
+        .date-range { font-size: 9pt; color: #777777; font-style: italic; }
+        .project-item { margin-bottom: 15px; page-break-inside: avoid; }
+        .project-title { font-weight: bold; font-size: 10.5pt; }
+        .tech-stack { font-size: 9pt; color: #555555; margin-bottom: 5px; }
+        .bullet-list { padding-left: 15px; margin: 5px 0 12px 0; }
+        .bullet-list li { margin-bottom: 5px; font-size: 9.5pt; text-align: justify; }
+        .lang-container { margin-bottom: 12px; }
+        .lang-header { display: table; width: 100%; font-size: 9pt; color: #ffffff; margin-bottom: 3px; }
+        .lang-name { display: table-cell; text-align: left; font-weight: bold; }
+        .lang-level { display: table-cell; text-align: right; color: #aaaaaa; }
+        .progress-bar-container { width: 100%; height: 5px; background-color: #333333; border-radius: 2px; }
+        .progress-bar { height: 100%; background-color: #ffffff; border-radius: 2px; }
     </style>
 </head>
 <body>
@@ -276,9 +79,9 @@
             <div class="profile-img-container">
                 <img class="profile-img" src="Maher.png" alt="Maher Sheikhi Aboumasoudi">
             </div>
-            
+
             <h2>Skills</h2>
-            
+
             <div class="skill-group-title">Programming & Tools</div>
             <ul class="sidebar-list">
                 <li>Python</li>
@@ -299,156 +102,157 @@
                 <li>Data Analysis</li>
             </ul>
 
-            <div class="skill-group-title">Neurotech & MedTech</div>
+            <div class="skill-group-title">Neurotech & Medical Technology</div>
             <ul class="sidebar-list">
                 <li>Biosignal Processing (EEG/EMG/MEG)</li>
-                <li>DICOM/PACS/FHIR</li>
+                <li>DICOM/FHIR/PACS</li>
                 <li>Medical Device Software Standards</li>
             </ul>
-            
+
             <h2>Education</h2>
             <div class="sidebar-subsect">
                 <div class="sidebar-subsect-date">01/2020 - 01/2022</div>
                 <div class="sidebar-subsect-title">Technical University of Berlin (TU Berlin)</div>
                 <div class="sidebar-subsect-desc">Berlin, Germany<br><strong>M.Sc.: Electrical Engineering</strong></div>
             </div>
-            
+
             <div class="sidebar-subsect">
                 <div class="sidebar-subsect-date">01/2011 - 01/2017</div>
                 <div class="sidebar-subsect-title">Azad University, Isfahan</div>
                 <div class="sidebar-subsect-desc">Isfahan, Iran<br><strong>B.Sc.: Electrical Engineering</strong></div>
             </div>
-            
+
             <h2>Languages</h2>
             <div class="lang-container">
                 <div class="lang-header">
                     <span class="lang-name">Persian (Farsi)</span>
-                    <span class="lang-level">Native Speaker</span>
+                    <span class="lang-level">Native</span>
                 </div>
                 <div class="progress-bar-container"><div class="progress-bar" style="width: 100%;"></div></div>
             </div>
-            
+
             <div class="lang-container" style="margin-top: 10px;">
                 <div class="lang-header">
                     <span class="lang-name">German</span>
                     <span class="lang-level">C1</span>
                 </div>
                 <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
-                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Professional (C1)</div>
+                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Fluent (C1)</div>
             </div>
-            
+
             <div class="lang-container" style="margin-top: 10px;">
                 <div class="lang-header">
                     <span class="lang-name">English</span>
                     <span class="lang-level">C1</span>
                 </div>
                 <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
-                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Professional (C1)</div>
+                <div style="font-size: 8pt; color: #aaaaaa; margin-top: 2px;">Fluent (C1)</div>
             </div>
         </div>
-        
-        <!-- MAIN CONTENT HEADER -->
+
+       <!-- MAIN CONTENT HEADER -->
         <div class="main-content">
             <!-- Top Bar Language Switcher -->
             <div style="text-align: right; margin-bottom: 10px; font-size: 9.5pt; font-weight: bold;">
-                <span>🇬🇧 English</span> &nbsp;|&nbsp; 
-                <a href="cv-de.html" style="color:#0066cc; text-decoration:none;">🇩🇪 Deutsch</a>
+                <span>🇬🇧 English</span>
+                &nbsp;|&nbsp;
+                <a href="./cv-de.html" style="color:#0066cc; text-decoration:none;">🇩🇪 Deutsch</a>
             </div>
 
             <h1>MAHER SHEIKHI ABOUMASOUDI</h1>
             <div class="subtitle">Clinical Engineer & Medical Device Consultant</div>
-            
+
             <div class="contact-info">
                 <div><strong>Phone:</strong> +49 015901610157 &nbsp;|&nbsp; <strong>Email:</strong> mahershei67@gmail.com</div>
                 <div><strong>Address:</strong> Freischützstraße 52, 81927, Munich, Germany</div>
                 <div><strong>Website & GitHub:</strong> <a href="https://mahersheikhi.com/" style="color:#0066cc; text-decoration:none;">mahersheikhi.com</a> &nbsp;|&nbsp; <a href="https://github.com/mahersheikhi" style="color:#0066cc; text-decoration:none;">github.com/mahersheikhi</a></div>
             </div>
-            
+
             <h2>Professional Profile</h2>
             <p style="margin-top: 5px; font-size: 9.5pt; color: #444444; text-align: justify;">
                 Clinical Engineer and certified Medical Device Consultant (under § 83 MPDG) specializing in neurotechnology. Experienced in developing AI-powered real-time BCI pipelines (Charité) and medical technology for implantable systems. Passionate about improving patients' quality of life through neurotechnological innovation.
             </p>
-            
-            <h2>Professional Experience</h2>
-            
+
+            <h2>Work Experience</h2>
+
             <div class="section-block">
                 <div class="date-range">01/2025 - Present</div>
                 <div class="job-title">Clinical Engineer / Medical Device Consultant</div>
                 <div class="company-location">MED-EL | Munich</div>
                 <ul class="bullet-list">
-                    <li>Signal Processing: Programmed highly complex cochlear and middle ear implant systems using advanced digital signal processing methods and coding strategies with our proprietary in-house software (C#).</li>
-                    <li>System Validation: Performed critical intraoperative system measurements and real-time validations in the operating room to ensure the functionality of medical devices during complex surgical procedures.</li>
-                    <li>Quality & Documentation: Documented clinical data in strict compliance with international medical device safety standards and established a continuous feedback loop directly to the Research & Development (R&D) department.</li>
-                    <li>LLM-based tools: Integration of LLM-based tools into daily workflows to process clinical inquiries more quickly—with expert review and validation of all results.<li>
-                    <li>Clinical Workshops & Training: Conducted interactive workshops and training sessions for medical professionals to ensure the correct, optimal, and proper use of our medical products.</li>
+                    <li>Signal Processing: Programmed highly complex cochlear and middle ear implant systems using advanced digital signal processing methods.</li>
+                    <li>System Validation: Performed critical intraoperative system measurements and real-time validations in the operating room to ensure the functionality of medical devices.</li>
+                    <li>Quality & Documentation: Documented clinical data in strict compliance with international medical device safety standards, establishing a continuous feedback loop to the R&D department.</li>
+                    <li>LLM Tools: Integrated LLM-based tools into daily workflows to accelerate the handling of clinical inquiries — with expert review and validation of all results.</li>
+                    <li>Clinical Workshops: Conducted interactive workshops and training sessions for medical professionals on the optimal use of medical products.</li>
                 </ul>
             </div>
-            
+
             <div class="section-block">
                 <div class="date-range">01/2023 - 12/2024</div>
-                <div class="job-title">Development Engineer</div>
+                <div class="job-title">Software Development Engineer</div>
                 <div class="company-location">Bertrandt / BMW Group | Munich</div>
                 <ul class="bullet-list">
-                    <li>Process Verification & Reporting: Successfully managed system validation pipelines and independently prepared norm-compliant type-approval test reports to ensure audit readiness.</li>
-                    <li>Agile Project Coordination: Led validation workflows using Scrum and Kanban methodologies to foster cross-functional alignment and timely release of development goals.</li>
+                    <li>Process Verification: Independently managed system validation pipelines and prepared norm-compliant type-approval test reports for audit readiness.</li>
+                    <li>Agile Project Management: Led validation workflows using Scrum and Kanban to ensure timely development milestones.</li>
                     <li>System Integration: Programmed and integrated complex software safety subsystems across various vehicle components.</li>
                 </ul>
             </div>
-            
+
             <div class="section-block">
                 <div class="date-range">07/2022 - 12/2022</div>
-                <div class="job-title">Master's Thesis - Software Development</div>
+                <div class="job-title">Master's Student - Software Development</div>
                 <div class="company-location">Arthrex GmbH | Munich</div>
                 <ul class="bullet-list">
-                    <li>Data Analysis & Scripting: Developed a Python-based graphical user interface (GUI) to optimize the statistical data evaluation of surgical instrument test benches.</li>
-                    <li>Automation & Accuracy: Implemented machine learning algorithms for automated error detection, leading to a significant improvement in traceability and measurement accuracy.</li>
+                    <li>Data Analysis: Developed a Python-based graphical user interface (GUI) to optimize statistical data evaluation of surgical instrument test benches.</li>
+                    <li>Automation: Implemented machine learning algorithms for automated error detection, improving traceability and measurement accuracy.</li>
                 </ul>
             </div>
-            
+
             <div class="section-block">
                 <div class="date-range">01/2022 - 06/2022</div>
                 <div class="job-title">Intern - SW/HW Development</div>
                 <div class="company-location">Fresenius Medical Care | Schweinfurt</div>
                 <ul class="bullet-list">
-                    <li>Lifecycle Planning: Supported early project planning, risk assessment, and the creation of the documentation structure for life-sustaining dialysis products.</li>
-                    <li>Cross-Functional Collaboration: Facilitated user story workshops to bridge technical development capabilities with the clinical expectations of end-users within a Scrum framework.</li>
+                    <li>Lifecycle Planning: Supported early project planning, risk assessment, and creation of the documentation structure for life-sustaining dialysis devices.</li>
+                    <li>Cross-Functional Collaboration: Facilitated user story workshops within a Scrum framework to align technical development with clinical requirements.</li>
                 </ul>
             </div>
-            
+
             <div class="section-block">
                 <div class="date-range">08/2021 - 12/2021</div>
                 <div class="job-title">Research Assistant - Brain-Computer Interface (BCI)</div>
                 <div class="company-location">Clinical Neurotechnology Lab, Charité | Berlin</div>
                 <ul class="bullet-list">
-                    <li>Complex Biosignal Pipelines: Set up AI-powered BCI system pipelines with Neuropype for the real-time validation and processing of neurological datasets (EEG, MEG, EMG).</li>
-                    <li>Scientific Scripting: Programmed scripts for analytical visualization and data processing using Python (NumPy, MNE, scikit-learn).</li>
+                    <li>Biosignal Pipelines: Set up AI-powered BCI system pipelines with Neuropype for real-time validation and processing of neurological datasets (EEG, MEG, EMG).</li>
+                    <li>Scientific Scripting: Programmed scripts for analytical visualization and data processing in Python (NumPy, MNE, scikit-learn).</li>
                 </ul>
             </div>
-            
+
             <div class="section-block">
                 <div class="date-range">03/2014 - 08/2017</div>
                 <div class="job-title">Electrical Engineer</div>
                 <div class="company-location">Farzanegan Faranoor | Isfahan</div>
                 <ul class="bullet-list">
-                    <li>Automated specialized metrological testing and visualization platforms using LabVIEW and MATLAB to improve workflow quality.</li>
+                    <li>Automated specialized metrological testing and visualization platforms using LabVIEW and MATLAB to optimize workflows.</li>
                 </ul>
             </div>
-            
-            <h2>Personal & Academic Projects</h2>
-            
+
+            <h2>Projects & Academic Work</h2>
+
             <div class="project-item">
                 <div class="project-title">1. NeuroScan AI (<a href="https://github.com/mahersheikhi/AI_NeuroScan" style="color:#0066cc; text-decoration:none; font-size:9pt;">Link</a>)</div>
                 <div class="tech-stack">Brain Tumor Detection System - <strong>Python · Flask · Claude Vision API</strong></div>
                 <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
-                    Developed a full-stack medical imaging web application that utilizes Claude Vision AI to analyze brain MRI/CT scans, classifying the presence of tumors with confidence ratings, urgency triaging, and detailed diagnostic reports. Implemented retry logic with exponential backoff and an image preprocessing pipeline using Pillow.
+                    Developed a full-stack medical imaging web application that uses Claude Vision AI to analyze brain MRI/CT scans, classify tumors, and generate detailed diagnostic reports.
                 </p>
             </div>
-            
+
             <div class="project-item">
                 <div class="project-title">2. Stock AI Agent (<a href="https://github.com/mahersheikhi/ai_stock_agent" style="color:#0066cc; text-decoration:none; font-size:9pt;">Link</a>)</div>
-                <div class="tech-stack">AI Assistant for Stock Analysis - <strong>LLM · Python · Streamlit · Yahoo Finance</strong></div>
+                <div class="tech-stack">AI Investment Analysis Platform - <strong>LLM · Python · Streamlit · Yahoo Finance</strong></div>
                 <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
-                    Developed a modular investment analysis platform that combines real-time market data, technical analysis, Google News RSS feeds, risk assessments, watchlist screening, and explainable reports. Designed a multi-layered architecture featuring providers, analysis agents, shared services, CLI and Streamlit interfaces, and automated testing with pytest.
+                    Developed a modular investment analysis platform combining real-time market data, technical analysis, risk assessments, and explainable reports.
                 </p>
             </div>
 
@@ -456,7 +260,7 @@
                 <div class="project-title">3. Bio-Inspired Computer Vision</div>
                 <div class="tech-stack">Academic Research Project - <strong>TU Berlin · Python</strong></div>
                 <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
-                    Analyzed and processed neural recordings in Python to model bio-inspired vision systems, extracting visual feature extraction models based on biological visual processing.
+                    Analysis and processing of neural recordings in Python to model bio-inspired vision systems and extract visual features.
                 </p>
             </div>
 
@@ -464,18 +268,18 @@
                 <div class="project-title">4. Brain-Computer Interfacing</div>
                 <div class="tech-stack">Academic Research Project - <strong>TU Berlin · Neurotechnology</strong></div>
                 <p style="font-size:9.5pt; margin: 3px 0; color:#444444; text-align: justify;">
-                    Built connectome-based whole-brain simulations to study network-level activity patterns and real-time BCI decoding algorithms.
+                    Built connectome-based whole-brain simulations to study network-wide activity patterns and real-time BCI decoding algorithms.
                 </p>
             </div>
-            
-            <h2>Certifications</h2>
+
+            <h2>Certificates</h2>
             <ul class="bullet-list" style="margin-bottom: 15px;">
                 <li><strong>Generative AI for Healthcare</strong>, Google Cloud, 03/2026</li>
                 <li><strong>Certified Medical Device Consultant (Medizinprodukteberater - §83 MPDG)</strong>, TÜV, 02/2025</li>
             </ul>
-            
+
             <h2>Hobbies</h2>
-            <p style="font-size: 9.5pt; color: #444444;">Football, SUP, Swimming, Cooking</p>
+            <p style="font-size: 9.5pt; color: #444444;">Football, Stand-Up Paddling (SUP), Swimming, Cooking</p>
         </div>
     </div>
 </div>
